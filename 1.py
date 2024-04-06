@@ -25,8 +25,10 @@ class SaveUser():
     def save(self):
         file = open("users.txt", "a")
         file.write(self.user)
+        file.write("\n is walking")
         file.close()
 
 usya = SaveUser("Vasya")
 usya.save()
+
 
