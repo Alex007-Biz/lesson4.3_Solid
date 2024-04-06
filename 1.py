@@ -26,3 +26,6 @@ class SaveUser():
         file = open("users.txt", "a")
         file.write(self.user)
         file.close()
+
+usya = SaveUser("Vasya")
+save.usya()
