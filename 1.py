@@ -28,4 +28,5 @@ class SaveUser():
         file.close()
 
 usya = SaveUser("Vasya")
-save.usya()
+usya.save()
+
