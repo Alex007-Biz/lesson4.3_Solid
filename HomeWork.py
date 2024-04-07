@@ -33,4 +33,6 @@ jason.change_weapon("sword")
 
 jason.change_weapon("bow")
 sword1.attack()
+jason.change_weapon("sword")
+
 
